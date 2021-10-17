@@ -8657,11 +8657,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 15, y: 10}
-      - {x: -14, y: 10}
-      - {x: -14, y: 0}
-      - {x: -14, y: -10}
-      - {x: 15, y: -10}
+    - - {x: 16, y: -10}
+      - {x: 16, y: 10}
+      - {x: 5, y: 10}
+      - {x: -15, y: 10}
+      - {x: -15, y: -10}
+      - {x: 2, y: -10}
 --- !u!4 &885164048
 Transform:
   m_ObjectHideFlags: 0
@@ -8674,7 +8675,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &974416822
 PrefabInstance:
@@ -8847,6 +8848,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cb821cb8ad6fc4469c295bec65d8a64, type: 3}
+--- !u!1001 &1305893723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997090893653050727, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164914045590427831, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+      propertyPath: m_Name
+      value: CogBullet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
 --- !u!1001 &1391842998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9164,7 +9222,7 @@ Transform:
   m_Children:
   - {fileID: 1900714084}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1889888075
 MonoBehaviour:
@@ -9183,6 +9241,11 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 885164047}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!1 &1890448233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8164914045590427831, guid: 0cffcb3ba74f1ed46a12935de18ad0f0, type: 3}
+  m_PrefabInstance: {fileID: 1305893723}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1900714083
 GameObject:
   m_ObjectHideFlags: 3
@@ -9566,10 +9629,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ruby
       objectReference: {fileID: 0}
+    - target: {fileID: 7735690110571133920, guid: 97fba80ed50a8e64c9c14f20c9f00c99, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7735690110571133925, guid: 97fba80ed50a8e64c9c14f20c9f00c99, type: 3}
       propertyPath: maxHealth
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7735690110571133925, guid: 97fba80ed50a8e64c9c14f20c9f00c99, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 1890448233}
     - target: {fileID: 7735690110571133926, guid: 97fba80ed50a8e64c9c14f20c9f00c99, type: 3}
       propertyPath: m_RootOrder
       value: 3
