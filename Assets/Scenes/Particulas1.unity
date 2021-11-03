@@ -9502,6 +9502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jambi
       objectReference: {fileID: 0}
+    - target: {fileID: 8145878424237076994, guid: daf97dbf4a92b1d4ea61c012486a0e32, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daf97dbf4a92b1d4ea61c012486a0e32, type: 3}
 --- !u!1001 &3690866159957527935
